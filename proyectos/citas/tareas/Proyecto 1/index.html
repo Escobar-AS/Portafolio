@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moneda 💰</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>💰 Conversor de Moneda</h1>
+
+        <div class="conversor">
+            <div class="campo">
+                <label>💵 Cantidad</label>
+                <input type="number" id="cantidad" placeholder="Ingrese cantidad" value="1">
+            </div>
+
+            <div class="campo">
+                <label>🌍 De</label>
+                <select id="moneda1"></select>
+            </div>
+
+            <div class="campo">
+                <label>🔄 A</label>
+                <select id="moneda2"></select>
+            </div>
+
+            <h2 id="resultado">💲 0.00</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
